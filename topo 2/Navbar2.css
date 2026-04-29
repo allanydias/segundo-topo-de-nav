@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/* NAVBAR AMARELA */
+#NavbarAmarelo {
+    background-color: #f7d400;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+/* LOGO */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo h3 {
+    color: #003087;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* LINKS */
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #003087;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* BUSCA */
+.search {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 180px;
+}
+
+/* LOGIN */
+.login button {
+    background-color: #001f5b;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* NAVBAR AZUL */
+#NavbarAzul {
+    background-color: #001f5b;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+/* LINKS AZUIS */
+.linksAzul {
+    display: flex;
+    gap: 25px;
+}
+
+.linksAzul a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+/* HASHTAG */
+.rastag h4 {
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+}
