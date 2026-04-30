@@ -8,54 +8,52 @@
     <link rel="stylesheet" href="Navbar2.css">
 </head>
 <body>
-    <main>
+
+    <header>
         <nav id="NavbarAmarelo">
-            <div class="logo">
-                <img src="" alt="logo do Banco Do Brasil">
-                <h3>Banco Do Brasil</h3>
-            </div>
-
-            <div class="links">
-                <a href="#">Para Você</a>
-                <a href="#">Para Empresas</a>
-                <a href="#">Agronegócios</a>
-                <a href="#">Setor Público</a>
-                <!-- <Link to="/paraVoce">Para Você</Link>
-                <Link to="/paraEmpresas">Para Empresas</Link>
-                <Link to="/Agronegócios">Agronegócios</Link>
-                <Link to="/setorPublico">Setor Público</Link> -->
-            </div>
-
-            <div class="busca">
-                <img src="" alt="Ícone de lupa">
-                <input type="text" placeholder="Busque no site" class="search" >
-            </div>
+            <div class="containerHeader">
+                <div class="logo">
+                    <img src="./assets/LogoBancoDoBrasil.png" alt="logo do Banco Do Brasil" id="logoBB">
+                    <div class="textoLogo">
+                        <h3>Banco Do Brasil</h3>
+                    </div>
+                </div>
             
-            <section class="login">
-                <button id="butaoLogin"> <img src="" alt="Ícone de cadeiado para o login"> Acesse sua conta</button>
-            </section>
+                <div class="links">
+                    <a href="#">Para Você</a>
+                    <a href="#">Para Empresas</a>
+                    <a href="#">Agronegócios</a>
+                    <a href="#">Setor Público</a>
+                </div>
             
+                <div class="acoesUsuario">
+                    <div class="busca">
+                        <img src="./assets/IconeLupa.png" alt="Ícone de lupa" id="iconeLupa">
+                        <input type="text" placeholder="Busque no site" class="search" >
+                    </div>
+
+                    <button id="butaoLogin"> 
+                        <img src="./assets/iconeUsuario.png" alt="Ícone de cadeiado para o login" id="iconeLogin"> Acesse sua conta
+                    </button>             
+                </div>
+            </div> 
         </nav>
         
         <nav id="NavbarAzul">
-            <div class="linksAzul">
-                <a href="#">Produtos e Serviços</a>
-                <a href="#">Soluções Digitais</a>
-                <a href="#">Atendimento</a>
-                <a href="#">Sobre o BB</a>
-                <!-- <Link to="/produtosEServicos">Produtos e Servicos</Link>
-                <Link to="/solucoesDigitais">Solucoes Digitais</Link>
-                <Link to="/atendimento">Atendimento</Link>
-                <Link to="/sobreoBB">Sobre o BB</Link> -->
+            <div class="containerHeader">
+              <div class="linksAzul">
+                    <a href="#">Produtos e Serviços</a>
+                    <a href="#">Soluções Digitais</a>
+                    <a href="#">Atendimento</a>
+                    <a href="#">Sobre o BB</a>
+                </div>
+            
+                <div class="hashtag">
+                    <h4>#PraTudoQueVoceImaginar</h4>
+                </div>
+            
             </div>
-
-            <div class="rastag">
-                <h4>#PraTudoQueVoceImaginar</h4>
-            </div>
-
         </nav>
-    </main>
-
-
+    </header>
 </body>
 </html>
